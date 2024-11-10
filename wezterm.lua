@@ -2,7 +2,8 @@ local wezterm = require 'wezterm'
 local config = {}
 
 -- config.color_scheme = 'Batman'
-config.window_background_opacity = 1.0
+config.window_background_opacity = 0.6
+config.macos_window_background_blur = 20
 
 config.keys = {
   -- CMD-y starts `top` in a new window
