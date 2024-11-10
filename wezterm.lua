@@ -12,6 +12,11 @@ config.keys = {
     action = wezterm.action.SpawnCommandInNewWindow {
     },
   },
+  {
+    key = 'u',
+    mods = 'CMD',
+    action = wezterm.action.SplitVertical { domain = 'CurrentPaneDomain' },
+  },
 }
 
 return config
