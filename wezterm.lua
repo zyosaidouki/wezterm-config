@@ -3,7 +3,7 @@ local config = {}
 
 -- config.color_scheme = 'Batman'
 config.color_scheme = 'Galaxy'
-config.window_background_opacity = 0.6
+config.window_background_opacity = 0.5
 config.macos_window_background_blur = 10
 
 config.keys = {
